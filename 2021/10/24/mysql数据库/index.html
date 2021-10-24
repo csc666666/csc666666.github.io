@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="PHP编程基础, CSC">
+    <meta name="keywords" content="mysql数据库, CSC">
     <meta name="description" content="于世为闲事，于身为长物">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>PHP编程基础 | CSC</title>
+    <title>mysql数据库 | CSC</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -315,7 +315,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">PHP编程基础</h1>
+                    <h1 class="description center-align post-title">mysql数据库</h1>
                 </div>
             </div>
         </div>
@@ -443,7 +443,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-10-23
+                    2021-10-24
                 </div>
                 
 
@@ -464,21 +464,50 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>1.基本用法</p>
-<p><img src="https://i.loli.net/2021/10/23/Fv7KWXAQchqI9Zt.png"></p>
-<p>2.单引号与双引号</p>
-<p><img src="https://i.loli.net/2021/10/23/SDmWMnLpxIH6BQy.png"></p>
-<p>3.花括号</p>
-<p><img src="https://i.loli.net/2021/10/23/ZNpgxd649jcyBWo.png"></p>
-<p>输出结果为 666555</p>
-<p>4.定界符<img src="https://i.loli.net/2021/10/23/63JhX4wDpezAEbY.png"></p>
-<p>输出结果为   ‘ww”www”‘’ww’</p>
-<p>5.外部变量<img src="https://i.loli.net/2021/10/23/OoPMLxpdXgKhbEz.png"></p>
-<p><img src="https://i.loli.net/2021/10/23/CPMYfXtmzUpn7bj.png"></p>
-<p>将html的数据传通过上诉三种方法传输到php中</p>
-<p>6.自定义常量<img src="https://i.loli.net/2021/10/23/1plxGWVb3PNYEDT.png"></p>
-<p>注：常量的值只能是标量类型</p>
-<p>7.数据类型<img src="https://i.loli.net/2021/10/24/H19zqMYFGPpALvD.png"></p>
+                <p>创建数据库</p>
+<p><u>创建数据库sql语法格式</u></p>
+<p>create database [if not exists] name</p>
+<p>[default]character set [=] charset name</p>
+<p><u>基本sql语法格式</u></p>
+<p>create database name;</p>
+<p><u>修改数据库</u></p>
+<p>alter database name</p>
+<p><u>删除数据库</u></p>
+<p>drop database name</p>
+<p><u>创建数据库表</u></p>
+<p>1.创建数据库: creat database name；</p>
+<p>2.打开数据库: use name；</p>
+<p>3.创建表: </p>
+<p>create table &lt;表名&gt;</p>
+<p>(</p>
+<p>​    列名1 数据类型 [列级别约束条件] [默认值]，</p>
+<p>   列名2 数据类型 [列级别约束条件] [默认值]，</p>
+<p> ……</p>
+<p>[表级别约束条件]</p>
+<p>)；</p>
+<p><img src="https://i.loli.net/2021/10/24/q3KrMRVL6xDNZws.png"></p>
+<p><u>查看数据库表</u></p>
+<p>1）查看数据表列表</p>
+<p>show tables [from name];</p>
+<p><img src="https://i.loli.net/2021/10/24/oed94D6hVKusrLB.png"></p>
+<p>2）查看数据表基本结构</p>
+<p>show columns from name；或describe &lt;表名&gt;;/desc&lt;表名&gt;;</p>
+<p><img src="https://i.loli.net/2021/10/24/Lz9ahI6s2iYrKfe.png"></p>
+<p><u>添加列</u></p>
+<p>alter table[表名]</p>
+<p>add&lt;新列名&gt;&lt;数据类型&gt;</p>
+<p>[约束条件] [first|after已存在列名]；</p>
+<p><u>修改列名</u></p>
+<p>alter table&lt;表名&gt;</p>
+<p>change&lt;旧列名&gt;&lt;新列名&gt;&lt;新数据类型&gt;；</p>
+<p><u>修改列的数据类型</u></p>
+<p>alter table&lt;表名&gt; modify&lt;列名&gt; &lt;数据类型&gt;</p>
+<p><u>删除列</u></p>
+<p>alter table&lt;表名&gt;drop&lt;列名&gt;;</p>
+<p><u>修改表名</u></p>
+<p>alter table  &lt;旧表名&gt;rename  [to] &lt;新表名&gt;</p>
+<p><u>删除数据库表</u></p>
+<p>drop table [if exist] 表一，表二…..;</p>
 
                 
             </div>
@@ -505,7 +534,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/">https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</a>
+                    <a href="https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/">https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -710,9 +739,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/">
                     <div class="card-image">
@@ -730,9 +760,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-10-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -741,6 +771,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -751,13 +782,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/10/10/%E6%8C%87%E9%92%88%E5%85%A5%E9%97%A8/">
+                <a href="/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="指针变量">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="PHP编程基础">
                         
-                        <span class="card-title">指针变量</span>
+                        <span class="card-title">PHP编程基础</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -768,7 +799,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-10-23
                             </span>
                         <span class="publish-author">
                             
