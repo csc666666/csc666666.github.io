@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CSC</title>
+  <icon>https://csc666666.github.io/icon.png</icon>
+  <subtitle>CSC</subtitle>
+  <link href="https://csc666666.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://csc666666.github.io/"/>
+  <updated>2021-10-24T15:33:57.893Z</updated>
+  <id>https://csc666666.github.io/</id>
+  
+  <author>
+    <name>shunchao chen</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql数据库</title>
+    <link href="https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2021-10-24T15:33:20.550Z</published>
+    <updated>2021-10-24T15:33:57.893Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;创建数据库&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;创建数据库sql语法格式&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;create database [if not exists] name&lt;/p&gt;
+&lt;p&gt;[default]character set [=] charset</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PHP编程基础</title>
+    <link href="https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
+    <id>https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-10-22T16:00:00.000Z</published>
+    <updated>2021-10-24T12:35:24.469Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.基本用法&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/10/23/Fv7KWXAQchqI9Zt.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;2.单引号与双引号&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>指针变量</title>
+    <link href="https://csc666666.github.io/2021/10/10/%E6%8C%87%E9%92%88%E5%85%A5%E9%97%A8/"/>
+    <id>https://csc666666.github.io/2021/10/10/%E6%8C%87%E9%92%88%E5%85%A5%E9%97%A8/</id>
+    <published>2021-10-09T16:00:00.000Z</published>
+    <updated>2021-10-23T08:39:15.556Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;编号（地址）: 内存中每一个字节分配一个号码&lt;/p&gt;
+&lt;p&gt;定义一个变量 存放上面的地址号码 这样的变量叫做指针变量&lt;/p&gt;
+&lt;p&gt;指针变量取的是起始地址&lt;/p&gt;
+&lt;p&gt;指针变量的两种类型: 自身的类型 指向的类型&lt;/p&gt;
+&lt;p&gt;自身的类型:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://csc666666.github.io/2021/09/18/hello-world/"/>
+    <id>https://csc666666.github.io/2021/09/18/hello-world/</id>
+    <published>2021-09-18T06:48:31.243Z</published>
+    <updated>2021-09-18T06:48:31.243Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
