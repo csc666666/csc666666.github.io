@@ -6,7 +6,7 @@
   <link href="https://csc666666.github.io/atom.xml" rel="self"/>
   
   <link href="https://csc666666.github.io/"/>
-  <updated>2021-11-04T09:07:14.892Z</updated>
+  <updated>2021-11-06T13:57:00.549Z</updated>
   <id>https://csc666666.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>less7</title>
+    <link href="https://csc666666.github.io/2021/11/04/title%20less7/"/>
+    <id>https://csc666666.github.io/2021/11/04/title%20less7/</id>
+    <published>2021-11-04T14:10:42.051Z</published>
+    <updated>2021-11-06T13:57:00.549Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;可能由于版本问题 在命令行可写文件 但网页不行 写文件搞了一天还没成功 最后只能放弃 哎 无语&lt;/p&gt;
+&lt;p&gt;webshell（中国菜刀）&lt;/p&gt;
+&lt;p&gt;管理员可对其进行网站管理 数据库管理</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>less1</title>
     <link href="https://csc666666.github.io/2021/11/02/sqli-less1/"/>
     <id>https://csc666666.github.io/2021/11/02/sqli-less1/</id>
     <published>2021-11-02T12:44:06.887Z</published>
-    <updated>2021-11-04T09:07:14.892Z</updated>
+    <updated>2021-11-04T10:05:00.671Z</updated>
     
     
       
