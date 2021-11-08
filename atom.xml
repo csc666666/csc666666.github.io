@@ -157,4 +157,26 @@
     
   </entry>
   
+  <entry>
+    <title>sqli less5&amp;8&amp;9</title>
+    <link href="https://csc666666.github.io/1970/01/01/title%20sqli%20less5&amp;8&amp;9/"/>
+    <id>https://csc666666.github.io/1970/01/01/title%20sqli%20less5&amp;8&amp;9/</id>
+    <published>1970-01-01T00:33:41.114Z</published>
+    <updated>2021-11-08T09:01:19.483Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1.left（）函数: &lt;code&gt;?id=1&amp;#39; and left((select database()),1)=&amp;#39;s&amp;#39;--+&lt;/code&gt;  判断数据库的第一位是否为s。&lt;/p&gt;
+&lt;p&gt;2.substr：substr((select</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
 </feed>
