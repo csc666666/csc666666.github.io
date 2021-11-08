@@ -6,7 +6,7 @@
   <link href="https://csc666666.github.io/atom.xml" rel="self"/>
   
   <link href="https://csc666666.github.io/"/>
-  <updated>2021-11-08T09:14:28.474Z</updated>
+  <updated>2021-11-06T14:02:15.269Z</updated>
   <id>https://csc666666.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>sqli less5&amp;8&amp;9</title>
-    <link href="https://csc666666.github.io/2021/11/06/title%20sqli%20less5&amp;8&amp;9/"/>
-    <id>https://csc666666.github.io/2021/11/06/title%20sqli%20less5&amp;8&amp;9/</id>
-    <published>2021-11-05T16:00:00.000Z</published>
-    <updated>2021-11-08T09:14:28.474Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;1.left（）函数: &lt;code&gt;?id=1&amp;#39; and left((select database()),1)=&amp;#39;s&amp;#39;--+&lt;/code&gt;  判断数据库的第一位是否为s。&lt;/p&gt;
-&lt;p&gt;2.substr：substr((select</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>less7</title>
