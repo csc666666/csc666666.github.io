@@ -42,30 +42,6 @@
   
   <entry>
     <title></title>
-    <link href="https://csc666666.github.io/2022/02/16/upload-labs%20%E9%80%9A%E5%85%B3/"/>
-    <id>https://csc666666.github.io/2022/02/16/upload-labs%20%E9%80%9A%E5%85%B3/</id>
-    <published>2022-02-16T03:28:21.775Z</published>
-    <updated>2022-02-20T12:42:31.158Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;upload-labs 通关记录&lt;/p&gt;
-&lt;p&gt;前言：文件上传漏洞有很多种绕过技巧，这次就通过upload-labs学习&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;upload-labs 1 （难点：前端js（Java</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
     <link href="https://csc666666.github.io/2022/02/10/less%2054~65/"/>
     <id>https://csc666666.github.io/2022/02/10/less%2054~65/</id>
     <published>2022-02-10T06:32:04.281Z</published>
@@ -483,6 +459,30 @@
 &lt;p&gt;2.输入order by语句对字段进行猜测&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;?id=1&amp;#39; order by 3 --+&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;3.输入 &lt;code&gt;?id=-1&amp;#39; union</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mysql数据库</title>
+    <link href="https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <published>2021-10-24T15:33:20.550Z</published>
+    <updated>2021-10-24T15:33:57.893Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;创建数据库&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;创建数据库sql语法格式&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;create database [if not exists] name&lt;/p&gt;
+&lt;p&gt;[default]character set [=] charset</summary>
         
       
     
