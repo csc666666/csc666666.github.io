@@ -6,7 +6,7 @@
   <link href="https://csc666666.github.io/atom.xml" rel="self"/>
   
   <link href="https://csc666666.github.io/"/>
-  <updated>2021-11-20T13:34:31.532Z</updated>
+  <updated>2022-02-21T04:06:28.486Z</updated>
   <id>https://csc666666.github.io/</id>
   
   <author>
@@ -17,11 +17,346 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/20/upload-labs%20/"/>
+    <id>https://csc666666.github.io/2022/02/20/upload-labs%20/</id>
+    <published>2022-02-20T13:41:36.562Z</published>
+    <updated>2022-02-21T04:06:28.486Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;upload-labs 通关记录&lt;/p&gt;
+&lt;p&gt;前言：文件上传漏洞有很多种绕过技巧，这次就通过upload-labs学习&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;upload-labs 1 （难点：前端js（Java</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/16/upload-labs%20%E9%80%9A%E5%85%B3/"/>
+    <id>https://csc666666.github.io/2022/02/16/upload-labs%20%E9%80%9A%E5%85%B3/</id>
+    <published>2022-02-16T03:28:21.775Z</published>
+    <updated>2022-02-20T12:42:31.158Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;upload-labs 通关记录&lt;/p&gt;
+&lt;p&gt;前言：文件上传漏洞有很多种绕过技巧，这次就通过upload-labs学习&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;upload-labs 1 （难点：前端js（Java</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/10/less%2054~65/"/>
+    <id>https://csc666666.github.io/2022/02/10/less%2054~65/</id>
+    <published>2022-02-10T06:32:04.281Z</published>
+    <updated>2022-02-14T02:32:40.041Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 54~&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 54&lt;/p&gt;
+&lt;p&gt;这一挑战的目的是将（秘密密钥）从数据库（“挑战”）中的只有随机表中倾倒在不到10次尝试中&lt;br&gt;为了有趣，每次重置，挑战会产生随机表名称，列名称，表数据。</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/09/less%2046~53/"/>
+    <id>https://csc666666.github.io/2022/02/09/less%2046~53/</id>
+    <published>2022-02-09T08:17:55.133Z</published>
+    <updated>2022-02-10T03:02:06.488Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 46~53&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;select*from users order by 1; （使用升序进行排列）&lt;/p&gt;
+&lt;p&gt;select*from users order by 1 desc;（使用降序进行排列）&lt;/p&gt;
+&lt;p&gt;select*from</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/09/less%2038~45/"/>
+    <id>https://csc666666.github.io/2022/02/09/less%2038~45/</id>
+    <published>2022-02-09T02:17:16.667Z</published>
+    <updated>2022-02-10T02:50:59.991Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 38~&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;堆叠注入定义&quot;&gt;&lt;a href=&quot;#堆叠注入定义&quot; class=&quot;headerlink&quot; title=&quot;堆叠注入定义&quot;&gt;&lt;/a&gt;堆叠注入定义&lt;/h2&gt;&lt;p&gt;   Stacked</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/04/less32%C2%B737/"/>
+    <id>https://csc666666.github.io/2022/02/04/less32%C2%B737/</id>
+    <published>2022-02-04T04:21:22.034Z</published>
+    <updated>2022-02-04T13:53:36.868Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 32~37&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;GBK ascii</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/02/03/less%2029~31/"/>
+    <id>https://csc666666.github.io/2022/02/03/less%2029~31/</id>
+    <published>2022-02-03T02:31:54.402Z</published>
+    <updated>2022-02-03T02:31:54.497Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/29/less%2026~28a/"/>
+    <id>https://csc666666.github.io/2022/01/29/less%2026~28a/</id>
+    <published>2022-01-29T08:30:07.696Z</published>
+    <updated>2022-02-02T03:50:47.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 26~28a&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 26&lt;/p&gt;
+&lt;p&gt;0.本关是对or and 空格 注释符  /  \  等进行了过滤（用%0a或%a0代替空格  %26代替&amp;amp;）&lt;/p&gt;
+&lt;p&gt;1.?id=1’ 报错 ?id=1’ ;%00 页面正常  </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/26/less%2023%C2%B725a/"/>
+    <id>https://csc666666.github.io/2022/01/26/less%2023%C2%B725a/</id>
+    <published>2022-01-26T09:24:28.721Z</published>
+    <updated>2022-02-01T08:37:23.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;less 23&lt;del&gt;less&lt;/del&gt;25a&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 23&lt;/p&gt;
+&lt;p&gt;0.?id =1 and 1=2 页面正常 字符型注入&lt;/p&gt;
+&lt;p&gt;1.尝试?id=1’  ?id=1’)  ?id=1’)) 均报错 得知闭合方式应为三者之一</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/23/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0%20less%2018~22/"/>
+    <id>https://csc666666.github.io/2022/01/23/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0%20less%2018~22/</id>
+    <published>2022-01-23T03:41:44.280Z</published>
+    <updated>2022-01-26T02:40:40.261Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;寒假复习 less 18~22&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 18  （user-agent）&lt;/p&gt;
+&lt;p&gt;0.发现页面显示我们的IP地址 任何网站应时刻注意 一旦他记录了我们的IP信息或者浏览器信息</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/22/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0%20less11~17/"/>
+    <id>https://csc666666.github.io/2022/01/22/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0%20less11~17/</id>
+    <published>2022-01-22T07:46:27.293Z</published>
+    <updated>2022-02-14T02:32:49.853Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;寒假复习&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 11  post&lt;/p&gt;
+&lt;p&gt;0.在username或possword 输入   ’    报错，输入‘# 页面显示正常 可知闭合方式&lt;/p&gt;
+&lt;p&gt;1.输入 ‘or 1=1# 登录成功&lt;/p&gt;
+&lt;p&gt;2’ order by</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/18/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0less5~less10/"/>
+    <id>https://csc666666.github.io/2022/01/18/%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0less5~less10/</id>
+    <published>2022-01-18T03:48:34.819Z</published>
+    <updated>2022-01-28T04:11:35.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;寒假复习 less5~less10&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;intruder中positions的attack type类型中的sniper  针对设置的positions变量一个一个进行单独测试 第一个测试完了接着测试下一个&lt;/p&gt;
+&lt;p&gt;这里记录一下burp</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://csc666666.github.io/2022/01/18/title%20sqli_labs%20less%201~4%20%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0/"/>
+    <id>https://csc666666.github.io/2022/01/18/title%20sqli_labs%20less%201~4%20%E5%AF%92%E5%81%87%E5%A4%8D%E4%B9%A0/</id>
+    <published>2022-01-18T01:35:17.257Z</published>
+    <updated>2022-01-28T03:39:51.008Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;title :sqli_labs less 1~4 寒假复习&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;less 1&lt;/p&gt;
+&lt;p&gt;0.?id=1 and 1=2 发现页面正常 所以位字符型注入&lt;/p&gt;
+&lt;p&gt;1.判断是否有注入 ?id=1’&lt;/p&gt;
+&lt;p&gt;2.输入order</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>less20&amp;21</title>
+    <link href="https://csc666666.github.io/2021/11/28/title%20less20&amp;21/"/>
+    <id>https://csc666666.github.io/2021/11/28/title%20less20&amp;21/</id>
+    <published>2021-11-28T03:37:05.577Z</published>
+    <updated>2021-11-28T03:37:05.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Cookie，有时也用其复数形式 &lt;a href=&quot;https://baike.baidu.com/item/Cookies/187064&quot;&gt;Cookies&lt;/a&gt;。类型为“&lt;strong&gt;小型文本文件&lt;/strong&gt;”，是某些网站为了辨别用户身份，进行&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>less13&amp;17</title>
     <link href="https://csc666666.github.io/2021/11/17/title%20title13/"/>
     <id>https://csc666666.github.io/2021/11/17/title%20title13/</id>
     <published>2021-11-17T03:56:27.116Z</published>
-    <updated>2021-11-20T13:34:31.532Z</updated>
+    <updated>2021-11-20T13:41:41.517Z</updated>
     
     
       
@@ -148,100 +483,6 @@
 &lt;p&gt;2.输入order by语句对字段进行猜测&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;?id=1&amp;#39; order by 3 --+&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;3.输入 &lt;code&gt;?id=-1&amp;#39; union</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>mysql数据库</title>
-    <link href="https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    <id>https://csc666666.github.io/2021/10/24/mysql%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
-    <published>2021-10-24T15:33:20.550Z</published>
-    <updated>2021-10-24T15:33:57.893Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;创建数据库&lt;/p&gt;
-&lt;p&gt;&lt;u&gt;创建数据库sql语法格式&lt;/u&gt;&lt;/p&gt;
-&lt;p&gt;create database [if not exists] name&lt;/p&gt;
-&lt;p&gt;[default]character set [=] charset</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>PHP编程基础</title>
-    <link href="https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/"/>
-    <id>https://csc666666.github.io/2021/10/23/php%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/</id>
-    <published>2021-10-22T16:00:00.000Z</published>
-    <updated>2021-10-24T12:35:24.469Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;1.基本用法&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/10/23/Fv7KWXAQchqI9Zt.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;2.单引号与双引号&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>指针变量</title>
-    <link href="https://csc666666.github.io/2021/10/10/%E6%8C%87%E9%92%88%E5%85%A5%E9%97%A8/"/>
-    <id>https://csc666666.github.io/2021/10/10/%E6%8C%87%E9%92%88%E5%85%A5%E9%97%A8/</id>
-    <published>2021-10-09T16:00:00.000Z</published>
-    <updated>2021-10-23T08:39:15.556Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;编号（地址）: 内存中每一个字节分配一个号码&lt;/p&gt;
-&lt;p&gt;定义一个变量 存放上面的地址号码 这样的变量叫做指针变量&lt;/p&gt;
-&lt;p&gt;指针变量取的是起始地址&lt;/p&gt;
-&lt;p&gt;指针变量的两种类型: 自身的类型 指向的类型&lt;/p&gt;
-&lt;p&gt;自身的类型:</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://csc666666.github.io/2021/09/18/hello-world/"/>
-    <id>https://csc666666.github.io/2021/09/18/hello-world/</id>
-    <published>2021-09-18T06:48:31.243Z</published>
-    <updated>2021-09-18T06:48:31.243Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
         
       
     
